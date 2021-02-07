@@ -38,7 +38,6 @@ def main():
 	print(logo + f"\nVersion: {version}")
 	print(f"Author: {author}")
 	print(f"User: {minhbuoiteo.user}")
-	print(f"Session: {se1}{se2}{se3}{se4}\n")
 	code = input("\nBeatmap ID (Ex: '586121#osu'): ")
 	if code=='':
 		print("\nBeatmap ID is required")
@@ -77,10 +76,6 @@ if __name__ == '__main__':
 	version = '1.2-debug'
 	author = 'Osu!player'
 	session = Session()
-	se1 = random.randint(0,9)
-	se2 = random.randint(0,9)
-	se3 = random.randint(0,9)
-	se4 = random.randint(0,9)
 	time.sleep(2)
 	set_title(f'Osu!Download - v{version} | by {author}')
 	while True:
