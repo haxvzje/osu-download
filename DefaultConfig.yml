@@ -1,0 +1,6 @@
+Setting:
+  #Your UserName
+  UserName: User
+
+  #Open osu & Import beatmap after this beatmap has been downloaded
+  Import: false
